@@ -1,28 +1,110 @@
 body {
-    background-color: rgb(170, 188, 225);
+    background-color: #EAE9F2;
+    font-family: sans-serif;
 }  
 
 p  {
-    color: #150aea;
+    color: #0D0D0D
 }
 
-img {
+article img {
     width: 20%;
     height: 20%;
 }
 
 a:hover {
-    color: #ea6f0a
+    color: #8C2323
 }
 
-header h1 {
+nav {
     display: inline;
+    background-color: #000000;
    
     
 }
+a {
+    text-decoration:none;
+    color: #EAE9F2;
+  
+    
+}
+nav div {
+    display: flex;
+    justify-content: end;
+    font-size: 170%;
+}
 
-header article {
-    display: inline;
-    padding-left: 250px;
-    text-align: right;
+nav ul {
+    list-style-type: none;
+   
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+ul a {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: end;
+    padding-left: 10px;
+}
+
+nav img {
+    width: 700px;
+    height: 100px;
+}
+
+div img{
+    height: 200px;
+    width: 200px;
+}
+
+article {
+    display: flex;
+}
+article img {
+    margin: 10px 20px 10px 10px;
+    flex-wrap:wrap;
+    max-width:200px;
+}
+
+article div {
+    margin-top: 20px;
+}
+
+article section {
+    padding: 10px,20px,10px,20px;
+    display: flex;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    font-size: 170%;
+}
+
+h2 {
+    display: inline-flex;
+
+}
+
+section img {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    position: right;
 }
